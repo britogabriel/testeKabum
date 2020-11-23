@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+button {
+    text-transform: uppercase;
+    outline: 0;
+    background: white;
+    width: 120px;
+    border: 0;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #202124;
+    font-size: 15px;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+table * {
+    position: relative;
+}
+table td, table th {
+    padding-left: 8px;
+}
+table thead tr {
+    height: 60px;
+    background: #36304a;
+}
+table tbody tr {
+    height: 50px;
+}
+table tbody tr:last-child {
+    border: 0;
+}
+table td, table th {
+    text-align: left;
+}
+table td.l, table th.l {
+    text-align: right;
+}
+table td.c, table th.c {
+    text-align: center;
+}
+table td.r, table th.r {
+    text-align: center;
+}
+
+.tablehead th{
+  font-size: 18px;
+  background-color: #e9e9e9;
+  color: #505050;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+tbody tr:nth-child(even) {
+  background-color: white;
+}
+
+tbody tr {
+  font-size: 15px;
+  color: #808080;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+tbody tr:hover {
+  color: #505050;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.colCod {
+  width: 50px;
+}
+
+.colNome {
+  width: 300px;
+}
+
+.colCpf {
+  width: 100px;
+}
+
+.colTel {
+  width: 100px;
+}
+
+body {
+    background: #202124;
+    font-family: "Roboto", sans-serif; 
+}
